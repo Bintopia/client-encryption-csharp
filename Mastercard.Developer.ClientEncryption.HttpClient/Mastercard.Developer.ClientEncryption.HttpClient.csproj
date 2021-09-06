@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <DisableImplicitNamespaceImports>true</DisableImplicitNamespaceImports>
+    <RootNamespace>Mastercard.Developer.ClientEncryption.HttpClient</RootNamespace>
+    <ApplicationIcon>..\icon.png</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mastercard.Developer.ClientEncryption.Core\Mastercard.Developer.ClientEncryption.Core.csproj" />
+  </ItemGroup>
+
+</Project>
